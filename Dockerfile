@@ -14,7 +14,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 EXPOSE 8501
 
 # Define environment variable
-ENV GOOGLE_API_KEY='AIzaSyAJnbLrzj7fQtH8Qd3UMZQGbIkHpa3UAaU'
+ENV GOOGLE_API_KEY='<Google key>'
 
 # Run app.py when the container launches
 CMD ["streamlit", "run", "main.py"]
