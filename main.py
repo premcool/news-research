@@ -16,7 +16,7 @@ from langchain_community.embeddings import FakeEmbeddings
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env (especially openai api key)
 
-os.environ[ 'GOOGLE_API_KEY' ] = 'AIzaSyAJnbLrzj7fQtH8Qd3UMZQGbIkHpa3UAaU' #for Gemini
+os.environ[ 'GOOGLE_API_KEY' ] = '<Google key>' #for Gemini
 
 st.title("Prem-Bot: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
